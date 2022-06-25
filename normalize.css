@@ -1,0 +1,63 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+main,header,.img-header>section,.javapage,.top-cours,.div2,.div3>section>section,.div6>.sec65,.div6>.sec65>section:nth-of-type(2)>form{
+    display: grid;
+}
+.top-header,.top-header>section,.top-header>span,.img-header,.img-header>section>nav,.img-header>section>nav>ul,.img-header>section>nav>ul>li>p,.img-header>section>nav>ul>li>p>span,.c1,.div2r1,.div2r2,.div2r2>section,.div2r2>section>.svg,.div3>section,.div3>section>section>*,.div4>.sec4,.div4>.sec4>span,.div5>.sec54>div,.div6>.sec65>section:nth-of-type(1),.div6>.sec65>section:nth-of-type(2)>form>section:nth-of-type(4),#submit,.footer>section:nth-of-type(1),.footer>section:nth-of-type(2){
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+h1,.close, .div2r1>figure>i,.div6>.sec65>section:nth-of-type(2)>form>section>label{
+    display: block;
+}
+.img-header,.top-header,.img-header>section>nav,.img-header>section>nav>ul>li,.close,.div2r1>figure,.div3>section,.div4,.div5,.div6{
+    position: relative;
+}
+.img-header::after,.img-header>section,.top-header>section,.top-header>span,.img-header>section>nav>p,.img-header>section>nav>ul,.img-header>section>nav>ul,.img-header>section>nav>ul>li>p,.img-header>section>nav>ul>li>p>span,.javapage,.div2r1>figure>i,.div2r1>figure::after,.div2r1>figure>img,.div3>section>div,.div3>section>section,.div4sec,.div5>*,.div5>.sec54>div,.div5:hover>.sec54>div>*,.div5>.sec54>div>figure,.div5:hover>.sec54>div>figure>img,.div5>.sec54>div>figcaption,.div6sec,.div6>.sec64,.div6>.sec64>div{
+    position: absolute;
+}
+.img-header>section>nav>ul>li>p,.img-header>section>nav>ul>li,.c1>figure,.div2r1>figure,.div5>.sec54>div,.div5>.sec54>div>figure,.div6{
+    overflow: hidden;
+}
+.javapage>nav,.javapage>section{
+    visibility: hidden;
+}
+.javapage>nav,.javapage>section,.div4>.sec4,.div5>.sec54>div{
+    opacity: 0;
+}
+.close,.javapage>nav>ul>li:hover,.top-header>span:hover,.img-header>section>nav>ul>li:hover,.div2r1>figure>i,.div2r2>section>span,.div4>.sec4>span:hover,.div6>.sec65>section:nth-of-type(1)>span>span:hover,#submit{
+    cursor: pointer;
+}
+.div3:hover h3 , .div3:hover>section>div,.div3:hover>section>section,.div3:hover>section>section>span,.div4:hover>.sec3,.div4:hover>.sec4,.div5:hover>.sec54>div,.div6:hover>.sec65{
+    opacity: 1;
+}
+.div3>h3,.div3>section>div,.div3>section>section,.div3>section>section>span,.div4>.sec3,.div6>.sec65{
+    opacity: 0;
+}
+.div3>h3{
+    text-align: center;
+}
+.div3>section>section>span,.top-header>section,.top-header>span,.c1,.div2r2,.div2r2>section>.svg,.div2r1,.img-header,.div4>.sec4>span,.div6>.sec65>section:nth-of-type(2)>form>section:nth-of-type(4),#submit,.footer>section:nth-of-type(1),.footer>section:nth-of-type(2){
+    justify-content: center;
+}
+.div3>section>section>p,.top-header>section,.top-header>span,.img-header>section>nav>ul>li>p>span,.c1,.div2r2,.div2r2>section,.div2r2>section>.svg,.div4>.sec4>span, .div5>.sec54>div,.div6>.sec65>section:nth-of-type(2)>form>section:nth-of-type(4),#submit,.footer>section:nth-of-type(1),.footer>section:nth-of-type(2){
+    align-items: center;
+}
+.div3>section>section>p,.div2r2>section>p{
+    font-style: italic;
+}
+.div4>.sec2,.div4>.sec3,.img-header,.div5>.sec53{
+    background-position: center;
+}
+.div4>.sec2,.div4>.sec3,.img-header,.div3>section>div,.div5>.sec53{
+    background-size: cover;
+}
